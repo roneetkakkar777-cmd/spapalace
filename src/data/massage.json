@@ -1,0 +1,144 @@
+[
+  {
+    "slug": "full-body-massage",
+    "title": "Full Body Massage",
+    "description": "A complete body massage designed to relax muscles, relieve stress, and rejuvenate your body.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1999 Onwards",
+    "benefits": ["Stress relief", "Muscle relaxation", "Improved circulation"],
+    "coverImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["/girls/girl1.jpg", "/girls/girl2.jpg", "/girls/girl3.jpg", "/girls/girl10.jpg"]
+  },
+
+  {
+    "slug": "thai-massage",
+    "title": "Thai Massage",
+    "description": "Traditional Thai massage combining stretching and pressure techniques.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1499 Onwards",
+    "benefits": ["Flexibility", "Energy boost", "Stress reduction"],
+    "coverImage": "https://cdn.powerofpositivity.com/wp-content/uploads/2020/08/Massage-Therapists-Explain-How-Thai-Massage-Helps-Reduce-Pain.jpg",
+    "gallery": ["/girls/girl4.jpg", "/girls/girl5.jpg", "/girls/girl6.jpg ", "/girls/girl11.jpg"]
+  },
+
+  {
+    "slug": "couples-massage",
+    "title": "Couples Massage",
+    "description": "Relax together with a soothing massage experience in a private setting.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1999 Onwards",
+    "benefits": ["Bonding", "Relaxation", "Stress relief"],
+    "coverImage": "https://smb.ibsrv.net/imageresizer/image/article_manager/1200x1200/26233/127509/heroimage0.774931001563386131.jpg",
+    "gallery": ["/girls/girl7.jpg", "/girls/girl8.jpg", "/girls/girl9.jpg", "/girls/girl12.jpg"]
+  },
+
+  {
+    "slug": "body-massage",
+    "title": "Body Massage",
+    "description": "A gentle massage to relax the body and calm the mind.",
+    "duration": "60 Minutes",
+    "price": "₹1499 Onwards",
+    "benefits": ["Relaxation", "Better sleep", "Reduced tension"],
+    "coverImage": "https://images.fresha.com/lead-images/placeholders/massage-103.jpg",
+    "gallery": ["/girls/girl1.jpg", "/girls/girl4.jpg", "/girls/girl7.jpg" , "/girls/girl13.jpg"]
+  },
+
+  {
+    "slug": "body-to-body-massage",
+    "title": "Body To Body Massage",
+    "description": "A premium relaxing experience focused on full body rejuvenation.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1499 Onwards",
+    "benefits": ["Deep relaxation", "Stress relief", "Mind-body balance"],
+    "coverImage": "http://goahappyendingspa.in/wp-content/uploads/2023/03/slider-4-1024x681.jpg",
+    "gallery": ["/girls/girl2.jpg", "/girls/girl5.jpg", "/girls/girl8.jpg", "/girls/girl14.jpg"]
+  },
+
+  {
+    "slug": "premium-russian-and-european-massage",
+    "title": "Premium Russian And European Massage",
+    "description": "Luxury massage performed by highly trained international therapists.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1999 Onwards",
+    "benefits": ["Luxury relaxation", "Muscle relief", "Premium experience"],
+    "coverImage": "https://framerusercontent.com/images/IdOWBEkW1CS19VxarrDu2uSxUdk.jpeg",
+    "gallery": ["/girls/girl3.jpg", "/girls/girl6.jpg", "/girls/girl9.jpg", "/girls/girl15.jpg"]
+  },
+
+  {
+    "slug": "four-hand-massage",
+    "title": "Four Hand Massage",
+    "description": "Two therapists working together for deep relaxation and stress relief.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1999 Onwards",
+    "benefits": ["Deep muscle relaxation", "Stress relief", "Better circulation"],
+    "coverImage": "https://tse3.mm.bing.net/th/id/OIP.G0evWgRvSNtZp2CLvSarFAHaFj?pid=Api&P=0&h=220",
+    "gallery": ["/girls/girl1.jpg", "/girls/girl5.jpg", "/girls/girl9.jpg", "/girls/girl16.jpg"]
+  },
+
+  {
+    "slug": "erotic-massage",
+    "title": "Erotic Massage",
+    "description": "A relaxing and rejuvenating massage experience in a private environment.",
+    "duration": "60 Minutes",
+    "price": "₹1499 Onwards",
+    "benefits": ["Stress relief", "Relaxation", "Mood enhancement"],
+    "coverImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery": ["/girls/girl2.jpg", "/girls/girl6.jpg", "/girls/girl8.jpg", "/girls/girl17.jpg"]
+  },
+
+  {
+    "slug": "hot-stone-massage",
+    "title": "Hot Stone Massage",
+    "description": "Warm stones used to relax muscles and improve blood flow.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1799 Onwards",
+    "benefits": ["Pain relief", "Muscle relaxation", "Stress reduction"],
+    "coverImage": "https://tse1.mm.bing.net/th/id/OIP.sNhkiH_cQI8r2OfDpfZBYAHaE8?pid=Api&P=0&h=220",
+    "gallery": ["/girls/girl3.jpg", "/girls/girl4.jpg", "/girls/girl7.jpg", "/girls/girl18.jpg"]
+  },
+
+  {
+    "slug": "sandwich-massage",
+    "title": "Sandwich Massage",
+    "description": "A unique massage technique offering full body relaxation.",
+    "duration": "60 Minutes",
+    "price": "₹1599 Onwards",
+    "benefits": ["Full relaxation", "Stress relief", "Energy boost"],
+    "coverImage": "https://www.localserviceslist.com/wp-content/uploads/2023/12/massage-in-bangalore.webp",
+    "gallery": ["/girls/girl1.jpg", "/girls/girl6.jpg", "/girls/girl8.jpg", "/girls/girl19.jpg"]
+  },
+
+  {
+    "slug": "deep-tissue-massage",
+    "title": "Deep Tissue Massage",
+    "description": "Targets deep muscle layers to relieve chronic pain and stiffness.",
+    "duration": "60 / 90 Minutes",
+    "price": "₹1899 Onwards",
+    "benefits": ["Pain relief", "Muscle recovery", "Improved mobility"],
+    "coverImage": "https://www.healthcure.co.nz/wp-content/uploads/2020/12/deep_tissue_massage.jpg",
+    "gallery": ["/girls/girl2.jpg", "/girls/girl4.jpg", "/girls/girl9.jpg", "/girls/girl12.jpg"]
+  },
+
+  {
+    "slug": "aromatherapy-massage",
+    "title": "Aromatherapy Massage",
+    "description": "Essential oils used to calm the mind and body.",
+    "duration": "60 Minutes",
+    "price": "₹1299 Onwards",
+    "benefits": ["Relaxation", "Better mood", "Stress relief"],
+    "coverImage": "https://tse2.mm.bing.net/th/id/OIP.czlUXdRcYokxQhi07cqsWAHaE7?pid=Api&P=0&h=220",
+    "gallery": ["/girls/girl3.jpg", "/girls/girl5.jpg", "/girls/girl7.jpg", "/girls/girls22.jpeg"]
+  },
+
+  {
+    "slug": "nuru-massage",
+    "title": "Nuru Massage",
+    "description": "A soothing body relaxation therapy using special techniques.",
+    "duration": "60 Minutes",
+    "price": "₹1999 Onwards",
+    "benefits": ["Deep relaxation", "Stress relief", "Body rejuvenation"],
+    "coverImage": "https://1.bp.blogspot.com/-9s4EPJmfOqI/VDf-pvr8NvI/AAAAAAAAgRE/ELzCeBB_5Jk/s1600/IMG_2026.JPG",
+    "gallery": ["/girls/girl4.jpg", "/girls/girl6.jpg", "/girls/girl8.jpg", "/girls/girls22.jpeg"]
+  }
+]
