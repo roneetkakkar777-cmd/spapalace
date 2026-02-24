@@ -50,19 +50,16 @@ export default function Navbar() {
             label="Massage Services"
             basePath="/massage"
             items={[
-              "Full Body Massage",
-              "Thai Massage",
-              "Couples Massage",
-              "Body Massage",
-              "Body To Body Massage",
-              "Premium Russian And European Massage",
-              "Four Hand Massage",
-              "Erotic Massage",
-              "Hot Stone Massage",
+              "Balance Massage",
               "Sandwich Massage",
+              "Jacuzzi Massage",
+              "Turkish Massage",
+              "Scrub Massage",
+              "Normal Aroma Massage",
               "Deep Tissue Massage",
-              "Aromatherapy Massage",
+              "Foot Massage",
               "Nuru Massage",
+              "Swedish Massage",
             ]}
             name="massage"
             openMenu={openMenu}
@@ -74,13 +71,11 @@ export default function Navbar() {
             basePath="/spa"
             items={[
               "Chocolate Massage",
-              "Swedish Massage",
               "Balinese Massage",
               "Lomi Lomi Massage",
               "Relaxation Massage",
               "Ayurvedic Massage",
               "Shiatsu Massage",
-              "Foot Massage",
               "Oil Massage",
               "Potli Massage",
               "Jacuzzi Honey Bath",
@@ -154,19 +149,16 @@ export default function Navbar() {
                   )
                 }
                 items={[
-                  "Full Body Massage",
-                  "Thai Massage",
-                  "Couples Massage",
-                  "Body Massage",
-                  "Body To Body Massage",
-                  "Premium Russian And European Massage",
-                  "Four Hand Massage",
-                  "Erotic Massage",
-                  "Hot Stone Massage",
+                  "Balance Massage",
                   "Sandwich Massage",
+                  "Jacuzzi Massage",
+                  "Turkish Massage",
+                  "Scrub Massage",
+                  "Normal Aroma Massage",
                   "Deep Tissue Massage",
-                  "Aromatherapy Massage",
+                  "Foot Massage",
                   "Nuru Massage",
+                  "Swedish Massage",
                 ]}
                 basePath="/massage"
                 setMobileOpen={setMobileOpen}
@@ -182,13 +174,11 @@ export default function Navbar() {
                 }
                 items={[
                   "Chocolate Massage",
-                  "Swedish Massage",
                   "Balinese Massage",
                   "Lomi Lomi Massage",
                   "Relaxation Massage",
                   "Ayurvedic Massage",
                   "Shiatsu Massage",
-                  "Foot Massage",
                   "Oil Massage",
                   "Potli Massage",
                   "Jacuzzi Honey Bath",

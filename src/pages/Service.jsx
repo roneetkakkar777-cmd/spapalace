@@ -45,14 +45,20 @@ export default function Service() {
                     {item.description}
                   </p>
 
-                  <div className="mt-4 text-sm text-gray-700">
-                    <p><b>Duration:</b> {item.duration}</p>
-                    <p><b>Price:</b> {item.price}</p>
+                  <div className="mt-4">
+                    <div className="space-y-1">
+                      {item.pricing.map((p, i) => (
+                        <div key={i} className="flex justify-between text-sm text-gray-700">
+                          <span className="font-medium">{p.duration}</span>
+                          <span className="text-primary-700 font-bold">₹{p.price}/-</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
 
                   <Link
                     to={`/massage/${item.slug}`}
-                    className="inline-block mt-5 bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-semibold transition"
+                    className="inline-block mt-5 bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-semibold transition w-full text-center"
                   >
                     View Details
                   </Link>
@@ -72,7 +78,7 @@ export default function Service() {
             {spas.map((item) => (
               <div
                 key={item.slug}
-                className="bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden"
+                className="bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden flex flex-col"
               >
                 <img
                   src={item.coverImage}
@@ -80,7 +86,7 @@ export default function Service() {
                   className="h-52 w-full object-cover"
                 />
 
-                <div className="p-6">
+                <div className="p-6 flex-1 flex flex-col">
                   <h3 className="text-xl font-semibold text-dark-900">
                     {item.title}
                   </h3>
@@ -89,17 +95,25 @@ export default function Service() {
                     {item.description}
                   </p>
 
-                  <div className="mt-4 text-sm text-gray-700">
-                    <p><b>Duration:</b> {item.duration}</p>
-                    <p><b>Price:</b> {item.price}</p>
+                  <div className="mt-4">
+                    <div className="space-y-1">
+                      {item.pricing.map((p, i) => (
+                        <div key={i} className="flex justify-between text-sm text-gray-700">
+                          <span className="font-medium">{p.duration}</span>
+                          <span className="text-primary-700 font-bold">₹{p.price}/-</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
 
-                  <Link
-                    to={`/spa/${item.slug}`}
-                    className="inline-block mt-5 bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-semibold transition"
-                  >
-                    View Details
-                  </Link>
+                  <div className="mt-auto">
+                    <Link
+                      to={`/spa/${item.slug}`}
+                      className="inline-block mt-5 bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-semibold transition w-full text-center"
+                    >
+                      View Details
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

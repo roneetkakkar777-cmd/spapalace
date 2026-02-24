@@ -32,9 +32,26 @@ export default function Massage() {
               {massage.description}
             </p>
 
-            <div className="mt-6 space-y-2 text-gray-700">
-              <p><b>Duration:</b> {massage.duration}</p>
-              <p><b>Price:</b> {massage.price}</p>
+            <div className="mt-8">
+              <h3 className="text-lg font-bold text-dark-900 mb-3">Pricing & Duration</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="py-2 pr-4 font-semibold text-gray-700">Duration</th>
+                      <th className="py-2 font-semibold text-gray-700">Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {massage.pricing.map((p, i) => (
+                      <tr key={i} className="border-b border-gray-100 last:border-0">
+                        <td className="py-2 pr-4 text-gray-600 font-medium">{p.duration}</td>
+                        <td className="py-2 text-primary-600 font-bold">₹{p.price}/-</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
