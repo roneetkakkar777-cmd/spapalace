@@ -43,7 +43,7 @@ export default function Home() {
         <div className="relative">
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="girls/home1.png"
+              src="/girls/home1.png"
               alt={`${brandDetails.name} - Luxury Spa`}
               className="w-full h-full object-cover"
             />

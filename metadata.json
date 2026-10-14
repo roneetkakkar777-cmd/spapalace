@@ -1,0 +1,8 @@
+{
+  "name": "Spa Palace",
+  "description": "Spa Palace offers premium massage and spa therapies in Connaught Place, New Delhi. Experience luxury relaxation, professional therapists, and rejuvenating wellness treatments.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
